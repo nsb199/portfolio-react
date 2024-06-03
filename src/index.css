@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+
+body {
+  height: 100vh;
+  background: #161513;
+  color: white;
+  font-family: 'outfit', sans-serif;
+  overflow-x: hidden;
+}
+
+
+@media(max-width:768px){
+  body {
+    overflow-x: hidden;
+  }
+}
